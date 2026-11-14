@@ -23,8 +23,8 @@ operator grows at least like n^{1/4} (log n)^{-1/4}. Virag's question remains op
   and writes `data/summary.csv`, `data/energy_summary.csv`, `data/SUMMARY.txt` and `data/edge_comparison.svg`.
 - `code/audit_math.py`: numerical checks of the normalizations and of the inequalities used in the proofs; writes
   `data/math_audit.json`.
-- `data/`: the summaries behind Table 1 of the paper and the run metadata. The raw sample files (about 2 MB) are
-  not included; `simulate.py` regenerates them.
+- `data/`: the summaries behind Table 1 of the paper and the run metadata. The raw sample files (about 2 MB), the
+  text summary and the figure are not included; `simulate.py` and `analyze.py` regenerate them.
 - `SHA256SUMS`: checksums of the files above.
 
 Python 3 with NumPy, SciPy, threadpoolctl and matplotlib. Run the scripts from the repository root, for example
